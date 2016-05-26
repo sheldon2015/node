@@ -1,0 +1,17 @@
+#全局对象
+##process 模块
+  process.cwd();
+  process.chdir();
+  process.stdout.write();
+  process.stderr.write
+  process.exit(code);
+  process.argv
+  process.env
+//--------------------
+##fs  文件系统模块
+##url 模块处理 url
+##path 模块处理路径
+##querystring 操作字符串模块
+##util
+##child_process
+
