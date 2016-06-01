@@ -8,17 +8,36 @@ console.log(buf.toString() + ' end');
 var buf = new Buffer([10, 20]);
 console.log(buf);
 console.log(buf.toString() + ' 1end');
-var buf = new Buffer("www.runoob.com", "utf-8");
+var buf = new Buffer("www.runoob.com");
 console.log(buf);
-console.log(buf.toString() + ' end');
+console.log(buf.toString() + ' qqqqqqend');
 var json = buf.toJSON(buf);
 
 console.log(json);
-var buf = new Buffer("中", "utf-8");
-console.log(buf);
-console.log(buf.toString() + ' end');
 
-var buf = new Buffer(6);
-buf.writeUIntBE(0x123, 0, 2);
+
+
+var b = new Buffer(['a', 'b', 'c', 'd', 'f']);
+console.log(b);
+
+
+var buf = new Buffer("我");
 console.log(buf);
+console.log(buf.toString() + ' utf-8end');
+
+var buf = new Buffer("我", "utf16le");
+console.log(buf);
+console.log(buf.toString('utf16le') + ' utf16leend');
+///////////////////////
+
+
+
+
+
+
+
+
+
+
+
 
