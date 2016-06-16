@@ -1,6 +1,6 @@
 {
   "globalDevDependencies": {
     "express": "registry:dt/express#4.0.0+20160317120654",
-    "node": "registry:dt/node#6.0.0+20160523035754"
+    "node": "registry:dt/node#6.0.0+20160602155235"
   }
 }

@@ -8,7 +8,7 @@
             "program": "${file}",
             "stopOnEntry": false,
             "args": [],
-            "cwd": "${workspaceRoot}",
+            "cwd": null,
             "preLaunchTask": null,
             "runtimeExecutable": null,
             "runtimeArgs": [
