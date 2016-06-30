@@ -41,6 +41,12 @@
     2. child_process.exec() 和 child_process.execFile() 方法还允许传递一个可选的回调函数，该回调函数会在子进程结束时被调用
 
 
+* ##child_process  子进程与父进程之间通讯
+* ##cluster    集群
+   1. 判断主 、子进程  isMaster   isWorker
+   2.  fork()方法创建worker进程
+
+
 
 
 
