@@ -1,4 +1,4 @@
-process.on('message', function(m) {
+process.on('message', function (m) {
   console.log('子进程收到了消息:', m);
 });
 

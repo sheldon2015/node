@@ -21,7 +21,7 @@
 
 //
 var b = new Buffer(5);
- b.write('fffff');
+b.write('fffff');
 console.log(b);
 b.write('ab', 1);
 console.log(b);
