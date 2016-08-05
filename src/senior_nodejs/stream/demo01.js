@@ -1,7 +1,6 @@
 var fs = require('fs');
 
 
-
 var writer = fs.createWriteStream('example.txt');
 writer.write('itbilu.com');
 //写入数据时，可以设置编码格式
