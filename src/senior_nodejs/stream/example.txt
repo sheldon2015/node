@@ -131,7 +131,7 @@ process.stdin
 
 当 stream 或底层资源（比如文件描述符）关闭时就会触发该事件。该事件也用于指示之后再没有其他事件会被触发，也不会再有任何计算。
 并不是所有的 stream 都会触发 close 事件。
-事件：'data'
+事件：'data'  
 
 chunk，Buffer 实例或字符串，数据块
 给未显式暂停的 stream 绑定 data 事件监听器会让 stream 切换为流动模式，数据会被可能快的传送出去。
